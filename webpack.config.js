@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
 	entry: [
 	'script!jquery/dist/jquery.min.js',
-	'./app/app.jsx'
+	'./src/index.jsx'
 	],
 	externals: {
 		jquery: 'jQuery'
@@ -22,14 +22,17 @@ module.exports = {
 	resolve: {
 		root: __dirname,
 		alias: {
-			applicationStyles: 'app/styles/app.css',
-			actions: 'app/actions/actions.jsx', 
-	        reducers: 'app/reducers/reducers.jsx',
-	        configureStore: 'app/store/configureStore.jsx',
-	        search_bar: 'app/components/search_bar',
-	        video_list: 'app/components/video_list' ,
-	        video_list_item: 'app/components/video_list_item' ,
-	        video_detail: 'app/components/video_detail'      
+			applicationStyles: 'src/styles/app.css',
+	        configureStore: 'src/store/configureStore',
+	        app: 'src/components/app',
+	        chart: 'src/components/chart',
+	        google_map: 'src/components/google_map',
+	        search_bar: 'src/containers/search_bar',
+	        weather_list: 'src/containers/weather_list',
+	        reducers: 'src/reducers/index',
+	        reducer_weather: 'src/reducers/reducer_weather',
+	        actions: 'src/actions/index'
+    
 	    },					
 		extensions: ['', '.js', '.jsx']
 	},
