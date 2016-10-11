@@ -1,6 +1,6 @@
 A React/Redux Web Application - 5-day Weather Forecast 
 
-Demo URL:  http://immense-sea-31156.herokuapp.com/
+Demo URL:  http://calm-spire-74019.herokuapp.com/
 
 ###Getting Started###
 
