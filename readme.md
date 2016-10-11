@@ -1,7 +1,5 @@
 A React/Redux Web Application - 5-day Weather Forecast 
 
-Demo URL:  http://calm-spire-74019.herokuapp.com/
-
 ###Getting Started###
 
 There are two methods to get started with this repo: Git and file download.
