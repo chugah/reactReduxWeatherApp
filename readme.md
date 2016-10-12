@@ -1,4 +1,4 @@
-A React/Redux Web Application - 5-day Weather Forecast 
+A React/Redux Web Application - 5-day Weather Forecast using Sparkline
 
 Demo URL:  http://quiet-sands-70030.herokuapp.com/
 
